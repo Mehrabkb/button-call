@@ -1,0 +1,21 @@
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 6px;
+  border: 0;
+  font-weight: bold;
+  letter-spacing: 0.0625em;
+  text-transform: uppercase;
+  background: #4CAF50;
+  color: #fff;
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+}
+/* Add a rollover background colour but keep the text white */
+.button:hover,
+.button:focus,
+.button:active {
+  background: #b7b6cd;
+  color: #fff;
+}
